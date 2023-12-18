@@ -1,0 +1,3 @@
+What is the difference between a merge and a rebase?
+
+Both of these combine the changes made in two branches into one. However, with merging, it links the commit history of both branches, preserving the exact sequence in which commits were made on each branch. The result is a non-linear history that shows where branches diverged and merged. With rebasing, the commit history of one branch and the other is rearranged so that all the commits for the first branch come first, and then the next branch, making a linear display of the commit history.
